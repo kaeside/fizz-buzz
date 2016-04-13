@@ -4,12 +4,8 @@ $(document).ready(function () {
         
         var fizzBuzz = $("#integer").val();
 
-        for (var int = fizzBuzz; i < 101; i++) {
-        console.log(int)      
+        if ((fizzBuzz % 3) == 0) {
+            .alert("hi!");
         }
-        if ((int % 3) == 0) {
-            $('.integer-list').append("<li>fizz</li>")
-            $('#integer').val("");
-        };
     });
 });
